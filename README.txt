@@ -47,3 +47,14 @@ getIncomingMessages(login, password, start, end)
   start - начальная дата проверки входящих смс в формате YYYY-MM-DD HH:MM:SS
   где, YYYY-год, MM-месяц, DD-день, HH-часы, MM-минуты, SS-секунды.
   end - конечная дата проверки входящих смс
+
+4. Использование:
+
+Для использования gem в Вашем скрипте необходимо выполнить следующие действия.
+
+Установка gem:
+	gem install SmsAPI
+
+Использование gem:
+	require 'SmsAPI'
+	
